@@ -5,7 +5,7 @@
  * 1 = PHP, Database trừ trên service
  * 10 = tất cả
  */
-$exports['debugMode'] = 0;
+$exports['debugMode'] = 10;
 
 //kết nối database
 $exports['db'] = array(
@@ -13,7 +13,7 @@ $exports['db'] = array(
     'host' => '127.0.0.1',
     'name' => 'framework',
     'user' => 'root',
-    'pass' => 'root'
+    'pass' => ''
 );
 
 $exports['cryptSecrect'] = 'abM)(*2312';

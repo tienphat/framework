@@ -35,3 +35,6 @@ $routes[] = new MvcContext('/rest/user', 'DELETE', "Apps\\Cores\\Controllers\\Re
 
 $routes[] = new MvcContext('/account/change-password', 'GET,POST', "Apps\\Cores\\Controllers\\AccountCtrl", 'changePassword');
 $routes[] = new MvcContext('/account/login', 'GET,POST', "Apps\\Cores\\Controllers\\AccountCtrl", 'index');
+
+
+$routes[] = new MvcContext('/home', 'GET,POST', "Apps\\Article\\Controllers\\MainCtrl", 'index');
